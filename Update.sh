@@ -1,5 +1,5 @@
 #! /bin/bash
 apt-get update
-apt-get upgrade
-apt-get dist-upgrade
+apt-get upgrade -y
+apt-get dist-upgrade -y
 apt-get clean
